@@ -1,0 +1,122 @@
+body{
+    background-image: url("../pic/high-angle-three-colored-shot-glasses-with-cocktails.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+}
+
+
+.header{
+    background-color: rgba(15, 15, 15, 0.884);
+    width: auto;
+    height: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.header > a {
+    color: #fff;
+    text-decoration: none;
+    font-family:monospace ;
+    font-size: 20px;
+    transition: 300ms;
+}
+
+.header > a:hover{
+    text-shadow: 0px 5px 10px#fff;
+}
+
+.header2{
+    top: 0;
+    position: sticky;
+    margin-top: 20px;
+    background-color: rgba(14, 2, 2, 0.363);
+    width: auto;
+    height: 50px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 2;
+}
+.header2 > a {
+    color: #fff;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 20px;
+    transition: 300ms;
+}
+
+.header2 > a:hover{
+    text-shadow: 0px 5px 10px#fff;
+}
+.center {
+    margin-top: 40px;
+    display: flex;
+    height: auto;
+    width: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.center > h1{
+    color:black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: underline;
+    font-weight: 100;
+    transition: 300ms;
+}
+
+.center > h1:hover{
+    color: rgba(7, 4, 22, 0.63);
+    font-weight: bolder;
+}
+
+.card {
+    margin-left: 20px;
+    margin-right: 20px;
+    flex: 15%;
+    box-shadow: 0px 2px 6px #464646f5;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    background-color: rgba(150, 142, 142, 0.356);
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px);
+    height: auto;
+    width: 25%;
+    padding-top: 10px;
+    border-radius: 15px;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.card > img{
+    height: 120px;
+    width: auto;
+}
+
+.card > h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card > h2 {
+    margin-top: 0%;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card > h4 {
+    margin-bottom: 0%;
+}
